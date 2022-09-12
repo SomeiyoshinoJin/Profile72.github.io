@@ -112,18 +112,20 @@ hobby
 display: flex;
 align-items: baseline;
 justify-content: space-between;
-margin-left: 10px;
-margin-right: 10px;
+margin-left: 2px;
+margin-right: 2px;
 }
 #hobby li {
-width: 40%;
+width: 20%;
 
 }
 #hobby p{
     text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border:solid;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 13px;
+    margin-right: 1px;
+    
     border-radius: gray;
     -webkit-border-radius: gray;
     -moz-border-radius: gray;
