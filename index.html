@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyProfile</title>
+    <title>PortFolio</title>
     <link rel="stylesheet" href="procss/style.css">
     <link rel="icon" href="./img/favicon.ico">
 </head>
 <body>
+    <!-- header -->
     <header id="header" class="wrapper">
-        <h1 class="site-title">Profile</h1>
+        <h1 class="site-title">PortFolio</h1>
         <nav>
             <ul>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#works">Works</a></li>
-                <li><a href="#hobby">趣味</a></li>
                 <li>
                     <a href="https://www.instagram.com/masaharu_ihara72/" target="_blank">
                         <img class="icon" src="./img/instagram-2.png" alt="インスタグラム">
@@ -30,9 +30,12 @@
         </nav>
     </header>
 
+    <!-- main -->
     <main>
         <div id="mainvisual">
+            
             <img src="img/IMG_5298.JPG" alt="川">
+            
         </div>
 
         <section id="about" class="wrapper">
@@ -41,17 +44,20 @@
                     <img src="img/MyFace.jpeg" alt="俺">
                     <div class="text">
                         <!-- <h3 class="content-title">井原 雅治</h3> -->
-                        <p>
-                            名前:井原 雅治<br>
-                            生年月日:1999年7月2日<br>
-                            出身地:愛知県<br> 
-                            趣味:映画・アニメ・ゲーム・e-Sports観戦・運動・パソコン作り・音楽・動画<br> 
-                            特技:剣道・陸上競技(中距離)
-                        </p>
+                        <div class="text-title-name">井原 雅治</div>
+
+                        <dl>
+                            <dt>生年月日</dt>
+                            <dd>1999年7月2日</dd>
+                            <dt>出身地</dt>
+                            <dd>愛知県</dd>
+                            <dt>趣味</dt>
+                            <dd>映画・ゲーム</dd>
+                        </dl>
                     </div>
                 </div>
         </section>
-
+<!-- works -->
         <section id="works" class="wrapper">
             <h2 class="works-title">WORKS</h2>
             <ul>
@@ -61,8 +67,8 @@
                                 <img 
                                     src="img/HOMEmenu.png" 
                                     alt="html"
-                                    width="320"
-                                    height="253"
+                                    width="200"
+                                    height="200"
                                 >
                             <h3>HOME(HTML/CSS)</h3>
                         </div>
@@ -72,12 +78,12 @@
                     <div class="content">
                         <div class="text">
                                 <img 
-                                    src="img/fusen.PNG" 
+                                    src="img/hst.PNG" 
                                     alt="html"
-                                    width="320"
-                                    height="253"
+                                    width="200"
+                                    height="200"
                                 >
-                            <h3>付箋(C#)</h3>
+                            <h3>反射神経テスト(C#)</h3>
                         </div>
                     </div>
                 </li>
@@ -87,8 +93,8 @@
                                 <img 
                                     src="img/Pc.JPG" 
                                     alt="html"
-                                    width="320"
-                                    height="253"
+                                    width="200"
+                                    height="200"
                                 >
                             <h3>自作PC</h3>
                         </div>
@@ -96,52 +102,10 @@
                 </li>       
             </ul>
         </section>
-
-        <section id="hobby" class="wrapper">
-        <h2 class="hobby-title">私の趣味・特技</h2>
-        <div class="flex">
-            <figure class="image"><img src="img/kandou_movie_eigakan.png" alt="映画" width="320" height="253"></figure>
-            <div class="right">
-                <p class="title"><strong>映画</strong></p>
-                <p class="text">ヒーローもの映画で言うとマーベル作品の「アベンジャーズ」と「ドクターストレンジ」他は「007」と「ジョン・ウィック」。</p>
-            </div>
-        </div>
-        <div class="flex">
-            <figure class="image"><img src="img/videogame_boy.png" alt="ゲーム" width="320" height="253"></figure>
-            <div class="right">
-                <p class="title"><strong>ゲーム</strong></p>
-                <p class="text">FPS・RPGです。<br>
-                    FPSゲームは、中学生の頃に友人の家でPS3のFPSゲームの体験版をやったきっかけで遊んでて、照準を敵に合わせるのが難しかったけど、時間をかけてだんだんやりこんでいくとうまくなって勝てるようになった。そこからいろんなFPSゲームを触ってきた。
-                    RPGは、FFシリーズとキングダムハーツシリーズかな。FF7とFF14やりこんでました。キングダムハーツは全シリーズはやったね。あとダークソウルも。
-                </p>
-            </div>
-        </div>
-        <div class="flex">
-            <figure class="image"><img src="img/kendou_man.png" alt="剣道部" width="320" height="253"></figure>
-            <div class="right">
-                <p class="title"> <strong>剣道部</strong></p>
-                <p class="text">
-                    中学1年から中学3年生まで剣道やってました。厳しい稽古の中、最後まで真面目に取り組みました。
-                    大会は何回か出てたり、
-                    特に級・段審査があって、一級～二段まで一発で取りました。段審査に関しては本当にうれしかった。
-                </p>
-            </div>
-        </div>
-        <div class="flex">
-            <figure class="image"><img src="img/rikujou_man_marathon.png" alt="陸上競技部" width="320" height="253"></figure>
-            <div class="right">
-                <p class="title"><strong>陸上競技部</strong></p>
-                <p class="text">
-                    元々小学生の頃に人一倍運動場で何周も走り回って、マラソン大会で上位8位に入賞することが多く、走ることが好きで中学で陸上やろうと思ったけど陸上部が無く高校で陸上部に入部した。<br>
-                    入部した当時は先輩方が優しく迎えてくれたり、練習の教え方が本当に丁寧です。あとは、練習メニュー通りにひたすら走って、分析と記録をお互いに意見交換をしていた。3年生になってから後輩の練習サポートしつつ、自分の練習を行っていました。インターハイは出れなかったけどね（笑）。だけど記録が伸びたのもの良かったです。
-                </p>
-            </div>
-        </div>
-        </section>
     </main>
-
+<!-- footer -->
     <footer id="footer">
-        <p>&copy;  Masaharu_IharaProfile</p>
+        <p>&copy;  Masaharu_Ihara</p>
     </footer>
 
 </body>
